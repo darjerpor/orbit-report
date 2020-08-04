@@ -2,16 +2,17 @@ import { stringify } from 'querystring';
 
 export class Satellite {
     name: string;
-    orbitType: string;
     type: string;
-    operational: boolean;
+    orbitType: string;
     launchDate: string;
+    operational: boolean;
+    
 
     constructor(name: string, type: string, launchDate: string, orbitType: string, operational: boolean){
-        name;
-        type;
-        launchDate;
-        orbitType;
-        operational;
+        this.name = name;
+        this.type = type;
+        this.launchDate = launchDate;
+        this.orbitType = orbitType;
+        this.operational = operational;
     }
 }

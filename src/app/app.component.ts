@@ -7,6 +7,7 @@ import { Satellite } from './satellite';
   styleUrls: ['./app.component.css']
 })
 
+
 export class AppComponent {
   title = 'orbit-report';
   sourceList: Satellite[];
@@ -16,10 +17,11 @@ export class AppComponent {
       new Satellite("Cat Scanner", "Imaging", "2012-01-05", "LOW", true),
       new Satellite("Weber Grill", "Space Debris", "1996-03-25", "HIGH", false),
       new Satellite("GPS 938", "Positioning", "2001-11-01", "HIGH", true),
-      new Satellite("ISS", "Space Station", "1998-11-20", "LOW", true),
-    ]
-  }
+      new Satellite("ISS", "Space Station", "1998-11-20", "LOW", true)
+    ];
+  }  
 }
+
 
 
 
