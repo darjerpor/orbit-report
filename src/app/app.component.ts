@@ -19,7 +19,7 @@ export class AppComponent {
        response.json().then(function(data) {
           let newSatelliteObject: Satellite;
           let fetchedSatellites = data.satellites;
-          for (let i = 0; i < fetchedSatellites.length;i++){
+          for (let i=0;i<fetchedSatellites.length;i++){
             newSatelliteObject = new Satellite(
               fetchedSatellites[i].name,
               fetchedSatellites[i].type,
