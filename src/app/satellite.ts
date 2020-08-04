@@ -14,5 +14,4 @@ export class Satellite {
         orbitType;
         operational;
     }
-
 }
